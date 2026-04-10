@@ -934,7 +934,7 @@ GameObject:
   - component: {fileID: 1603172345}
   - component: {fileID: 1603172346}
   m_Layer: 0
-  m_Name: Room2_Waypoint
+  m_Name: Next level
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1385,6 +1385,10 @@ PrefabInstance:
       propertyPath: transition
       value: 
       objectReference: {fileID: 1433991596}
+    - target: {fileID: 3752409489867515963, guid: 876a64d18d5b0484a9c1a517f89f56bb, type: 3}
+      propertyPath: indexDirection
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4666103854842842975, guid: 876a64d18d5b0484a9c1a517f89f56bb, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1433,7 +1437,8 @@ PrefabInstance:
       propertyPath: m_Alpha
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3752409489867515963, guid: 876a64d18d5b0484a9c1a517f89f56bb, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
